@@ -1,0 +1,80 @@
+.container.main-container {
+  max-width: 80rem;
+  padding-bottom: 7.5rem;
+  padding-top: 7.5rem;
+}
+
+/* All classes starting with ".unavailabel" are meant to give style to 
+unavailable buttons */
+
+.unavailabel{
+  width: 187px;
+  height: 38px;
+  background: transparent;
+  color: red;
+  font-weight: bold;
+  transition: background-color 0.2s;
+  cursor: pointer;
+  border-color: red;
+  padding: 0;
+  }
+
+  .unavailabel:hover {background-color: red}
+  
+  .unavailabel:active {
+    background-color: red;
+    transform: translateY(4px);
+  }
+
+  .unavailabel:focus {
+    background-color: red;
+  }
+
+  /* All classes starting with ".available" are meant to give style to 
+available buttons */
+
+  .availabel{
+    padding: 0;
+    width: 187px;
+    height: 38px;
+    background: transparent;
+    color: green;
+    font-weight: bold;
+    transition: background-color 0.2s;
+    cursor: pointer;
+    border-color: green;
+    }
+  
+    .availabel:hover {background-color: green}
+    
+    .availabel:active {
+      background-color: green;
+      transform: translateYi(4px);
+    }
+
+    .availabel:focus {
+      background-color: green;
+    }
+
+    /* All classes starting with ".searchDoctor" are meant to give style 
+    to the search box created to filter doctors */
+  
+.searchDoctor {
+  float: right;
+  font-size: 17px;
+  width: 300px;
+  height: 38px;
+  padding-left: 5px;
+  background-color: #FFF;
+  border: 0.1rem solid #d1d1d1;
+  border-radius: .4rem;
+}
+
+.searchDoctor:hover {
+  background-color: #eee;
+  color: #000;
+}
+
+.searchDoctor {
+  float: right;
+}
